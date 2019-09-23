@@ -16,7 +16,7 @@ function sumFibs(num) {
       count++;
       if (fibNum % 2 == 1) {
         sum += fibNum;
-        console.log(sum);
+        //console.log(fibNum);
       }
     } else {
       loop = false;
@@ -38,4 +38,4 @@ for (let i = 1; i < 20; i++) {
   console.log(getFibonacci(i));
 }
 */
-console.log(sumFibs(-4));
+console.log(sumFibs(4));
