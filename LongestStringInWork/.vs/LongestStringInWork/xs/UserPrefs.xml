@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{22755A7C-EA1C-4E60-A1CB-7C02035B2452}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Factorialize/Program.cs">
+﻿<Properties StartupConfiguration="{2E80CE77-73A0-4169-842F-A7288F94370B}|Default">
+  <MonoDevelop.Ide.ItemProperties.LongestStringInWork PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LongestStringInWork/Program.cs">
     <Files>
-      <File FileName="Factorialize/Program.cs" Line="20" Column="30" />
+      <File FileName="LongestStringInWork/Program.cs" Line="13" Column="100" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Factorialize" expanded="True">
-            <Node name="Factorialize" expanded="True">
+          <Node name="LongestStringInWork" expanded="True">
+            <Node name="LongestStringInWork" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -15,7 +16,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Factorialize PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

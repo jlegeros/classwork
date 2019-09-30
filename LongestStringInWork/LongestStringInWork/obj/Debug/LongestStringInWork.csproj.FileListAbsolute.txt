@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/LongestStringInWork/LongestStringInWork/bin/Debug/LongestStringInWork.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/LongestStringInWork/LongestStringInWork/bin/Debug/LongestStringInWork.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/LongestStringInWork/LongestStringInWork/obj/Debug/LongestStringInWork.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/LongestStringInWork/LongestStringInWork/obj/Debug/LongestStringInWork.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/LongestStringInWork/LongestStringInWork/obj/Debug/LongestStringInWork.pdb
