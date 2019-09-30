@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Factorialize/Factorialize/bin/Debug/Factorialize.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Factorialize/Factorialize/bin/Debug/Factorialize.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Factorialize/Factorialize/obj/Debug/Factorialize.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Factorialize/Factorialize/obj/Debug/Factorialize.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Factorialize/Factorialize/obj/Debug/Factorialize.pdb
