@@ -9,7 +9,6 @@ function whatIsInAName(collection, source) {
   var arr = [];
   // Only change code below this line
   const sourceKeys = Object.keys(source);
-  //console.log(`sourceKeys: ${sourceKeys}`);
   for (let i = 0; i < collection.length; i++) {
     let containsKeyAndValue = true;
     for (let j = 0; j < sourceKeys.length; j++) {
@@ -21,7 +20,6 @@ function whatIsInAName(collection, source) {
       arr.push(collection[i]);
     }
   }
-  //console.log(`arr: ${arr}`);
   // Only change code above this line
   return arr;
 }

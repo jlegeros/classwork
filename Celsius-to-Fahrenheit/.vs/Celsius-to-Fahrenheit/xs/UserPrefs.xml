@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{46FED935-C777-48B3-A582-7DD4C87F086F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Celsius-to-Fahrenheit/Program.cs">
+    <Files>
+      <File FileName="Celsius-to-Fahrenheit/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Celsius-to-Fahrenheit" expanded="True">
+            <Node name="Celsius-to-Fahrenheit" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Celsius-to-Fahrenheit FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

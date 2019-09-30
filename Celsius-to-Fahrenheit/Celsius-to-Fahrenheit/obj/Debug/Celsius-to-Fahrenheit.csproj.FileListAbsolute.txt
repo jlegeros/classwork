@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Celsius-to-Fahrenheit/Celsius-to-Fahrenheit/bin/Debug/Celsius-to-Fahrenheit.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Celsius-to-Fahrenheit/Celsius-to-Fahrenheit/bin/Debug/Celsius-to-Fahrenheit.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Celsius-to-Fahrenheit/Celsius-to-Fahrenheit/obj/Debug/Celsius-to-Fahrenheit.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Celsius-to-Fahrenheit/Celsius-to-Fahrenheit/obj/Debug/Celsius-to-Fahrenheit.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/Celsius-to-Fahrenheit/Celsius-to-Fahrenheit/obj/Debug/Celsius-to-Fahrenheit.pdb
