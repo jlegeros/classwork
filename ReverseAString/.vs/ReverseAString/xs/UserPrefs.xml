@@ -1,13 +1,13 @@
-﻿<Properties StartupConfiguration="{46FED935-C777-48B3-A582-7DD4C87F086F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Celsius-to-Fahrenheit/Program.cs">
+﻿<Properties StartupConfiguration="{6EE43320-7E6B-4662-9E5A-90ABE70C0342}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReverseAString/Program.cs">
     <Files>
-      <File FileName="Celsius-to-Fahrenheit/Program.cs" Line="24" Column="2" />
+      <File FileName="ReverseAString/Program.cs" Line="11" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Celsius-to-Fahrenheit" expanded="True">
-            <Node name="Celsius-to-Fahrenheit" expanded="True">
+          <Node name="ReverseAString" expanded="True">
+            <Node name="ReverseAString" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -15,8 +15,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ReverseAString FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Celsius-to-Fahrenheit PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

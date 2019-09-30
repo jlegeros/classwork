@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ReverseAString/ReverseAString/obj/Debug/ReverseAString.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ReverseAString/ReverseAString/bin/Debug/ReverseAString.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ReverseAString/ReverseAString/bin/Debug/ReverseAString.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ReverseAString/ReverseAString/obj/Debug/ReverseAString.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ReverseAString/ReverseAString/obj/Debug/ReverseAString.pdb
