@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturnLargestNumber", "ReturnLargestNumber\ReturnLargestNumber.csproj", "{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

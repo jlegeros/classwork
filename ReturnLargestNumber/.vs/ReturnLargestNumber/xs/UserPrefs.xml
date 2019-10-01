@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{5693ADA1-7DE0-4AAD-B833-8988A94CE31F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReturnLargestNumber/Program.cs">
+    <Files>
+      <File FileName="ReturnLargestNumber/Program.cs" Line="12" Column="131" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReturnLargestNumber" expanded="True">
+            <Node name="ReturnLargestNumber" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ReturnLargestNumber PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
