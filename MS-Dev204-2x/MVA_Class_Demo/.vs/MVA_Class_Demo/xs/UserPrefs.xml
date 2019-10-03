@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{FC911C99-A753-4C40-82CD-63E134A47CE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.MVA__Class__Demo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVA_Class_Demo/Program.cs">
+    <Files>
+      <File FileName="MVA_Class_Demo/Program.cs" Line="16" Column="40" />
+      <File FileName="MVA_Class_Demo/DrinksMachine.cs" Line="26" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVA_Class_Demo" expanded="True">
+            <Node name="MVA_Class_Demo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

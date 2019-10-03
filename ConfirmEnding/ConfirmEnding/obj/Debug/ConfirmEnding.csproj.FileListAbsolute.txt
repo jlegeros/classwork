@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ConfirmEnding/ConfirmEnding/obj/Debug/ConfirmEnding.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ConfirmEnding/ConfirmEnding/bin/Debug/ConfirmEnding.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ConfirmEnding/ConfirmEnding/bin/Debug/ConfirmEnding.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ConfirmEnding/ConfirmEnding/obj/Debug/ConfirmEnding.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/ConfirmEnding/ConfirmEnding/obj/Debug/ConfirmEnding.pdb

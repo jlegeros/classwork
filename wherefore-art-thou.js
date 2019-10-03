@@ -9,6 +9,7 @@ function whatIsInAName(collection, source) {
   var arr = [];
   // Only change code below this line
   const sourceKeys = Object.keys(source);
+  console.log(Object.entries(source));
   for (let i = 0; i < collection.length; i++) {
     let containsKeyAndValue = true;
     for (let j = 0; j < sourceKeys.length; j++) {

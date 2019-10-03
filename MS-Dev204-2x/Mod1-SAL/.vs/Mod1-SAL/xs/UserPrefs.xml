@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F5814298-8870-445A-8DF5-B9C495ED5DB5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mod1-SAL/Program.cs">
+    <Files>
+      <File FileName="Mod1-SAL/Program.cs" Line="10" Column="1" />
+      <File FileName="Mod1-SAL/Student.cs" Line="7" Column="1" />
+      <File FileName="Mod1-SAL/Teacher.cs" Line="7" Column="1" />
+      <File FileName="Mod1-SAL/UProgram.cs" Line="23" Column="10" />
+      <File FileName="Mod1-SAL/Degree.cs" Line="29" Column="27" />
+      <File FileName="Mod1-SAL/Course.cs" Line="28" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mod1-SAL" expanded="True">
+            <Node name="Mod1-SAL" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Mod1-SAL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

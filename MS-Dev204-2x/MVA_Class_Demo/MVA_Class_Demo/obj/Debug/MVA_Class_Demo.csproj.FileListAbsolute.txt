@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/MVA_Class_Demo/MVA_Class_Demo/bin/Debug/MVA_Class_Demo.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/MVA_Class_Demo/MVA_Class_Demo/bin/Debug/MVA_Class_Demo.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/MVA_Class_Demo/MVA_Class_Demo/obj/Debug/MVA_Class_Demo.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/MVA_Class_Demo/MVA_Class_Demo/obj/Debug/MVA_Class_Demo.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/MVA_Class_Demo/MVA_Class_Demo/obj/Debug/MVA_Class_Demo.pdb

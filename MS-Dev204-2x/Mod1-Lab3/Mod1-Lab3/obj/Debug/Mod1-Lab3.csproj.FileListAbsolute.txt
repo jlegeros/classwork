@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod1-Lab3/Mod1-Lab3/bin/Debug/Mod1-Lab3.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod1-Lab3/Mod1-Lab3/bin/Debug/Mod1-Lab3.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod1-Lab3/Mod1-Lab3/obj/Debug/Mod1-Lab3.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod1-Lab3/Mod1-Lab3/obj/Debug/Mod1-Lab3.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod1-Lab3/Mod1-Lab3/obj/Debug/Mod1-Lab3.pdb

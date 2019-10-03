@@ -5,6 +5,7 @@ Flatten a nested array. You must account for varying levels of nesting.
 function steamrollArray(arr) {
   let newArr = [];
   while (arr.length > 0) {
+    // use isArray --
     if (arr[0].length != undefined && typeof arr[0] != "string") {
       newArr = newArr.concat(steamrollArray(arr.shift()));
     } else {

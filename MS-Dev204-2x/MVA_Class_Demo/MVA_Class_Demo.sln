@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVA_Class_Demo", "MVA_Class_Demo\MVA_Class_Demo.csproj", "{FC911C99-A753-4C40-82CD-63E134A47CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC911C99-A753-4C40-82CD-63E134A47CE4}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{FC911C99-A753-4C40-82CD-63E134A47CE4}.Debug|anycpu.Build.0 = Debug|anycpu
+		{FC911C99-A753-4C40-82CD-63E134A47CE4}.Release|anycpu.ActiveCfg = Release|anycpu
+		{FC911C99-A753-4C40-82CD-63E134A47CE4}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

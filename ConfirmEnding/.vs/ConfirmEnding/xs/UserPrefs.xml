@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{29C47D39-C7B8-40D5-A7E0-DAECA65F4428}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConfirmEnding/Program.cs">
+    <Files>
+      <File FileName="ConfirmEnding/Program.cs" Line="10" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConfirmEnding" expanded="True">
+            <Node name="ConfirmEnding" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ConfirmEnding PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

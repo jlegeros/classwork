@@ -15,10 +15,10 @@ function myReplace(str, before, after) {
   if (before[0] == before[0].toUpperCase()) {
     after = after.replace(/\b./, after[0].toUpperCase());
   }
-  let beforeRx = new RegExp(before, "g");
-  let newStr = str.replace(beforeRx, after);
-  //console.log(newStr);
-  return newStr;
+  //let beforeRx = new RegExp(before, "g");
+  //let newStr = str.replace(new RegExp(before, "g"), after);
+  //console.log(str.replace(new RegExp(before, "g"), after));
+  return str.replace(new RegExp(before, "g"), after);
 }
 
 myReplace("Let us go to the store", "store", "mall"); //should return "Let us go to the mall".
