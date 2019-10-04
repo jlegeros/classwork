@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MOSH_48e/MOSH_48e/bin/Debug/MOSH_48e.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MOSH_48e/MOSH_48e/bin/Debug/MOSH_48e.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MOSH_48e/MOSH_48e/obj/Debug/MOSH_48e.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MOSH_48e/MOSH_48e/obj/Debug/MOSH_48e.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MOSH_48e/MOSH_48e/obj/Debug/MOSH_48e.pdb
