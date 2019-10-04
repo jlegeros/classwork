@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B376C1FE-F373-433F-B733-0A7C9427F437}|Default">
+  <MonoDevelop.Ide.ItemProperties.MOSH__42e PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MOSH_42e/Program.cs">
+    <Files>
+      <File FileName="MOSH_42e/Program.cs" Line="31" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MOSH_42e" expanded="True">
+            <Node name="MOSH_42e" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
