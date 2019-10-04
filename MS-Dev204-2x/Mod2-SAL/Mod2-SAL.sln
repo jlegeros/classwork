@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod2-SAL", "Mod2-SAL\Mod2-SAL.csproj", "{EF261984-8B79-4A13-95DF-A06CA3CB6DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod1-SAL", "..\Mod1-SAL\Mod1-SAL\Mod1-SAL.csproj", "{F5814298-8870-445A-8DF5-B9C495ED5DB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF261984-8B79-4A13-95DF-A06CA3CB6DA8}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{EF261984-8B79-4A13-95DF-A06CA3CB6DA8}.Debug|anycpu.Build.0 = Debug|anycpu
+		{EF261984-8B79-4A13-95DF-A06CA3CB6DA8}.Release|anycpu.ActiveCfg = Release|anycpu
+		{EF261984-8B79-4A13-95DF-A06CA3CB6DA8}.Release|anycpu.Build.0 = Release|anycpu
+		{F5814298-8870-445A-8DF5-B9C495ED5DB5}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{F5814298-8870-445A-8DF5-B9C495ED5DB5}.Debug|anycpu.Build.0 = Debug|anycpu
+		{F5814298-8870-445A-8DF5-B9C495ED5DB5}.Release|anycpu.ActiveCfg = Release|anycpu
+		{F5814298-8870-445A-8DF5-B9C495ED5DB5}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

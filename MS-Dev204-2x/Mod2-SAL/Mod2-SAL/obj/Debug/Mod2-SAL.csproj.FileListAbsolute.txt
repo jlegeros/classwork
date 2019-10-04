@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod2-SAL/Mod2-SAL/bin/Debug/Mod2-SAL.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod2-SAL/Mod2-SAL/bin/Debug/Mod2-SAL.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod2-SAL/Mod2-SAL/obj/Debug/Mod2-SAL.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod2-SAL/Mod2-SAL/obj/Debug/Mod2-SAL.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/MS-Dev204-2x/Mod2-SAL/Mod2-SAL/obj/Debug/Mod2-SAL.pdb
