@@ -33,6 +33,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DrinksMachine.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="ILoyaltyCardHolder.cs" />
+    <Compile Include="Customer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

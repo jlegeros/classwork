@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{FC911C99-A753-4C40-82CD-63E134A47CE4}|Default">
   <MonoDevelop.Ide.ItemProperties.MVA__Class__Demo PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MVA_Class_Demo/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVA_Class_Demo/Customer.cs">
     <Files>
-      <File FileName="MVA_Class_Demo/Program.cs" Line="16" Column="40" />
-      <File FileName="MVA_Class_Demo/DrinksMachine.cs" Line="26" Column="6" />
+      <File FileName="MVA_Class_Demo/Program.cs" Line="20" Column="30" />
+      <File FileName="MVA_Class_Demo/DrinksMachine.cs" />
+      <File FileName="MVA_Class_Demo/Employee.cs" Line="30" Column="37" />
+      <File FileName="MVA_Class_Demo/Manager.cs" Line="21" Column="49" />
+      <File FileName="MVA_Class_Demo/ILoyaltyCardHolder.cs" Line="8" Column="28" />
+      <File FileName="MVA_Class_Demo/Customer.cs" Line="22" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MVA_Class_Demo" expanded="True">
             <Node name="MVA_Class_Demo" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Customer.cs" selected="True" />
             </Node>
           </Node>
         </State>

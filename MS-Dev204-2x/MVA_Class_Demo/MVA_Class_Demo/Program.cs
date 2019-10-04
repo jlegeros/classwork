@@ -14,6 +14,10 @@ namespace MVA_Class_Demo
             Console.WriteLine(myMachine.Make);
             Console.WriteLine(myMachine.Model);
             myMachine.MakeCappuccino();
+
+            Manager myManager = new Manager();
+            myManager.Login();
+            myManager.Hire();
         }
     }
 }
