@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOSH_58e", "MOSH_58e\MOSH_58e.csproj", "{CFA4E436-B41C-4610-BC56-F42DB4029D13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA4E436-B41C-4610-BC56-F42DB4029D13}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{CFA4E436-B41C-4610-BC56-F42DB4029D13}.Debug|anycpu.Build.0 = Debug|anycpu
+		{CFA4E436-B41C-4610-BC56-F42DB4029D13}.Release|anycpu.ActiveCfg = Release|anycpu
+		{CFA4E436-B41C-4610-BC56-F42DB4029D13}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
