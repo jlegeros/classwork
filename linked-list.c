@@ -12,28 +12,49 @@ typedef struct NODE
   struct NODE *next;
 } NODE;
 
-void addNode(int val, NODE *listNode)
+NODE *rootNode = NULL;
+
+void addNode(int val)
 {
-  while (listNode->next != NULL)
-  {
-    listNode = listNode->next;
-  }
   NODE *newNode = malloc(sizeof(NODE));
   newNode->value = val;
   newNode->next = NULL;
-  listNode->next = newNode;
+
+  if (rootNode == NULL) 
+  {
+    rootNode = newNode;
+  }
+  else
+  {
+    NODE *trav = rootNode;
+    while (trav->next != NULL)
+    {
+      trav = trav->next;
+    }
+    
+    trav->next = newNode;
+  }
+}
+
+void displayList()
+{
+  NODE *trav = rootNode;
+
+  printf("%i", trav->value);
+  while (trav->next != NULL)
+  {
+    trav = trav->next;
+    printf(", %i", trav->value);
+  }
+  printf("\n");
 }
 
 int main(void)
 {
-  NODE rootNode;
-  rootNode.value = 5;
-  rootNode.next = NULL;
+  addNode(5);
+  addNode(8);
+  addNode(10);
+  addNode(4);
 
-  addNode(8, &rootNode);
-  addNode(10, &rootNode);
-
-  printf("%i\n", rootNode.value);
-  printf("%i\n", rootNode.next->value);
-  printf("%i\n", rootNode.next->next->value);
+  displayList();
 }
