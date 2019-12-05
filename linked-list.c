@@ -49,6 +49,34 @@ void displayList()
   printf("\n");
 }
 
+void freeNode(NODE *node)
+{
+  if (node->next != NULL)
+  {
+    freeNode(node->next);
+  }
+  free(node);
+}
+
+void freeList()
+{
+  // while (rootNode->next != NULL)
+  // {
+  //   NODE *prev = rootNode;
+  //   NODE *next = rootNode->next;
+  //   while (next->next != NULL)
+  //   {
+  //     prev = next;
+  //     next = next->next;
+  //   }
+  //   free(next);
+  //   prev->next = NULL;
+  // }
+  // free(rootNode);
+  // rootNode = NULL;
+  freeNode(rootNode);
+}
+
 int main(void)
 {
   addNode(5);
@@ -57,4 +85,5 @@ int main(void)
   addNode(4);
 
   displayList();
+  freeList();
 }
