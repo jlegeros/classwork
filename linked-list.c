@@ -74,7 +74,43 @@ void freeList()
   // }
   // free(rootNode);
   // rootNode = NULL;
-  freeNode(rootNode);
+  if (rootNode != NULL){
+    freeNode(rootNode);
+  }
+  rootNode = NULL;
+}
+
+NODE* hasValue(int val)
+{
+  if (rootNode == NULL)
+  {
+    return NULL;
+  }
+
+  if (rootNode->next == NULL)
+  {
+    if (rootNode->value == val)
+    {
+      return rootNode;
+    }
+    return NULL;
+  }
+
+  NODE *trav = rootNode;
+
+  while (trav->next != NULL)
+  {
+    if (trav->value == val)
+    {
+      return trav;
+    }
+    trav = trav->next;
+  }
+
+  return NULL;
+
+  // return NULL if it does not exist
+  // return the pointer to the value if it exists
 }
 
 int main(void)
@@ -85,5 +121,26 @@ int main(void)
   addNode(4);
 
   displayList();
+
+  NODE *item1 = hasValue(9);
+  if (item1 != NULL)
+  {
+    printf("%i\n", item1->value);
+  }
+  else
+  {
+    printf("Item not found\n");
+  }
+
+  NODE *item2 = hasValue(10);
+  if (item2 != NULL)
+  {
+    printf("%i\n", item2->value);
+  }
+  else
+  {
+    printf("Item not found\n");
+  }
+
   freeList();
 }
