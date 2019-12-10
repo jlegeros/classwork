@@ -20,7 +20,7 @@ void addNode(int val)
   newNode->value = val;
   newNode->next = NULL;
 
-  if (rootNode == NULL) 
+  if (rootNode == NULL)
   {
     rootNode = newNode;
   }
@@ -31,7 +31,7 @@ void addNode(int val)
     {
       trav = trav->next;
     }
-    
+
     trav->next = newNode;
   }
 }
@@ -74,50 +74,42 @@ void freeList()
   // }
   // free(rootNode);
   // rootNode = NULL;
-  if (rootNode != NULL){
+  if (rootNode != NULL)
+  {
     freeNode(rootNode);
   }
   rootNode = NULL;
 }
 
-NODE* hasValue(int val)
+NODE *hasValue(int val)
 {
   if (rootNode == NULL)
   {
     return NULL;
   }
 
-  if (rootNode->next == NULL)
-  {
-    if (rootNode->value == val)
-    {
-      return rootNode;
-    }
-    return NULL;
-  }
-
   NODE *trav = rootNode;
-
+  if (trav->value == val)
+  {
+    return trav;
+  }
   while (trav->next != NULL)
   {
+    trav = trav->next;
     if (trav->value == val)
     {
       return trav;
     }
-    trav = trav->next;
   }
 
   return NULL;
-
-  // return NULL if it does not exist
-  // return the pointer to the value if it exists
 }
 
 int main(void)
 {
   addNode(5);
   addNode(8);
-  addNode(10);
+  addNode(9);
   addNode(4);
 
   displayList();
@@ -125,17 +117,30 @@ int main(void)
   NODE *item1 = hasValue(9);
   if (item1 != NULL)
   {
-    printf("%i\n", item1->value);
+    printf("List has value %i\n", item1->value);
   }
   else
   {
     printf("Item not found\n");
   }
 
-  NODE *item2 = hasValue(10);
+  NODE *item2 = hasValue(7);
   if (item2 != NULL)
   {
-    printf("%i\n", item2->value);
+    printf("List has value %i\n", item2->value);
+  }
+  else
+  {
+    printf("Item not found\n");
+  }
+
+  addNode(7);
+  displayList();
+
+  NODE *item3 = hasValue(7);
+  if (item3 != NULL)
+  {
+    printf("List has value %i\n", item3->value);
   }
   else
   {
