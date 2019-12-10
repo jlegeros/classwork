@@ -24,40 +24,69 @@ void addNode(int val)
   if (root == NULL)
   {
     root = newNode;
-    printf("Added %i node to the root\n", val);
+    return;
   }
-  else
-  {
-    BINARYNODE *trav = root;
-    int count = 1;
 
+  BINARYNODE *trav = root;
+  int count = 1;
+
+  while (1 == 1)
+  {
     if (trav->value < newNode->value)
     {
-      while (trav->greater != NULL)
+      if (trav->greater == NULL)
       {
-        trav = trav->greater;
-        count++;
+        trav->greater = newNode;
+        return;
       }
-      trav->greater = newNode;
-      printf("Added %i Node to left side, %i branches down\n", val, count);
+      trav = trav->greater;
+      continue;
     }
     else
     {
-      while (trav->lesser != NULL)
+      if (trav->lesser == NULL)
       {
         trav->lesser = newNode;
-        count++;
+        return;
       }
-      trav->lesser = newNode;
-      printf("Added %i Node to right side, %i branches down\n", val, count);
+      trav = trav->lesser;
+      continue;
     }
   }
 }
 
+// prints node, then its children from left to right
+void displayTreeOnEnter(BINARYNODE *node)
+{
+  printf(" %i ", node->value);
+  if (node->lesser != NULL)
+    displayTreeOnEnter(node->lesser);
+  if (node->greater != NULL)
+    displayTreeOnEnter(node->greater);
+}
+
+// prints children, then itself
+void displayTreeOnExit(BINARYNODE *node)
+{
+  if (node->lesser != NULL)
+    displayTreeOnExit(node->lesser);
+  if (node->greater != NULL)
+    displayTreeOnExit(node->greater);
+  printf(" %i ", node->value);
+}
+
 int main(void)
 {
-  addNode(7);
-  addNode(9);
-  addNode(4);
-  addNode(11);
+  int stream[] = {5, 8, 9, 4, 6, 7, 2, 3, 1, 10};
+  for (int i = 0; i < 10; i++)
+  {
+    addNode(stream[i]);
+  }
+
+  // should display 5, 4, 2, 1, 3, 8, 6, 7, 9, 10
+  displayTreeOnEnter(root);
+  printf("\n");
+  // should display 1, 3, 2, 4, 7, 6, 10, 9, 8, 5
+  displayTreeOnExit(root);
+  printf("\n");
 }

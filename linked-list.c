@@ -84,24 +84,25 @@ void freeList()
 NODE *hasValue(int val)
 {
   if (rootNode == NULL)
-  {
     return NULL;
-  }
 
   NODE *trav = rootNode;
   if (trav->value == val)
   {
+    printf("found %i\n", val);
     return trav;
   }
+
   while (trav->next != NULL)
   {
     trav = trav->next;
     if (trav->value == val)
     {
+      printf("found %i\n", val);
       return trav;
     }
   }
-
+  printf("did not find value\n");
   return NULL;
 }
 
@@ -115,37 +116,13 @@ int main(void)
   displayList();
 
   NODE *item1 = hasValue(9);
-  if (item1 != NULL)
-  {
-    printf("List has value %i\n", item1->value);
-  }
-  else
-  {
-    printf("Item not found\n");
-  }
 
   NODE *item2 = hasValue(7);
-  if (item2 != NULL)
-  {
-    printf("List has value %i\n", item2->value);
-  }
-  else
-  {
-    printf("Item not found\n");
-  }
 
   addNode(7);
   displayList();
 
   NODE *item3 = hasValue(7);
-  if (item3 != NULL)
-  {
-    printf("List has value %i\n", item3->value);
-  }
-  else
-  {
-    printf("Item not found\n");
-  }
 
   freeList();
 }
