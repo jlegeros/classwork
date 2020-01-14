@@ -58,6 +58,8 @@ void addNode(int val)
 // prints node, then its children from left to right
 void displayTreeOnEnter(BINARYNODE *node)
 {
+  if (node == NULL)
+    return;
   printf(" %i ", node->value);
   if (node->lesser != NULL)
     displayTreeOnEnter(node->lesser);
@@ -68,12 +70,53 @@ void displayTreeOnEnter(BINARYNODE *node)
 // prints children, then itself
 void displayTreeOnExit(BINARYNODE *node)
 {
+  if (node == NULL)
+    return;
   if (node->lesser != NULL)
     displayTreeOnExit(node->lesser);
   if (node->greater != NULL)
     displayTreeOnExit(node->greater);
   printf(" %i ", node->value);
 }
+
+BINARYNODE *hasValue(int val)
+{
+  if (root == NULL)
+    return NULL;
+  BINARYNODE *trav = root;
+
+  while (1)
+  {
+    if (trav->value == val)
+    {
+      printf("Found %i\n", val);
+      return trav;
+    }
+
+    if (trav->value < val && trav->greater != NULL)
+    {
+      trav = trav->greater;
+      continue;
+    }
+
+    if (trav->value > val && trav->lesser != NULL)
+    {
+      trav = trav->lesser;
+      continue;
+    }
+
+    printf("%i not found\n", val);
+    return NULL;
+  }
+}
+
+// free list - easy
+
+// display levels
+// 5
+// 4 8
+// 2 6 9
+// 1 3 7 10
 
 int main(void)
 {
@@ -89,4 +132,15 @@ int main(void)
   // should display 1, 3, 2, 4, 7, 6, 10, 9, 8, 5
   displayTreeOnExit(root);
   printf("\n");
+
+  hasValue(5);
+  hasValue(404);
+  hasValue(4);
+  hasValue(8);
+  hasValue(7);
+
+  if ("cat" - "cats" < 0)
+  {
+    printf("test cat worked\n");
+  }
 }

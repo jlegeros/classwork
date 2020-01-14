@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/StringCalculator_v1/StringCalculator_v1/bin/Debug/StringCalculator_v1.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/StringCalculator_v1/StringCalculator_v1/bin/Debug/StringCalculator_v1.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/StringCalculator_v1/StringCalculator_v1/obj/Debug/StringCalculator_v1.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/StringCalculator_v1/StringCalculator_v1/obj/Debug/StringCalculator_v1.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/StringCalculator_v1/StringCalculator_v1/obj/Debug/StringCalculator_v1.pdb
