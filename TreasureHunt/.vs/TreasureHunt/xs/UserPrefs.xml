@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{50FF6BD4-5625-4D58-A7FF-1902ABED4892}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TreasureHunt/Program.cs">
+    <Files>
+      <File FileName="TreasureHunt/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TreasureHunt" expanded="True">
+            <Node name="TreasureHunt" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.TreasureHunt FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

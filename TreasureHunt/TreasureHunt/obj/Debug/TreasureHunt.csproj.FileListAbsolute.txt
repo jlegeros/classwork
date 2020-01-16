@@ -1,0 +1,5 @@
+/Users/james/Desktop/CareerDevs/intermediate/classwork/TreasureHunt/TreasureHunt/bin/Debug/TreasureHunt.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/TreasureHunt/TreasureHunt/bin/Debug/TreasureHunt.pdb
+/Users/james/Desktop/CareerDevs/intermediate/classwork/TreasureHunt/TreasureHunt/obj/Debug/TreasureHunt.csprojAssemblyReference.cache
+/Users/james/Desktop/CareerDevs/intermediate/classwork/TreasureHunt/TreasureHunt/obj/Debug/TreasureHunt.exe
+/Users/james/Desktop/CareerDevs/intermediate/classwork/TreasureHunt/TreasureHunt/obj/Debug/TreasureHunt.pdb

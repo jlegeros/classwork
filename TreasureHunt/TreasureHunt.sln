@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreasureHunt", "TreasureHunt\TreasureHunt.csproj", "{50FF6BD4-5625-4D58-A7FF-1902ABED4892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FF6BD4-5625-4D58-A7FF-1902ABED4892}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{50FF6BD4-5625-4D58-A7FF-1902ABED4892}.Debug|anycpu.Build.0 = Debug|anycpu
+		{50FF6BD4-5625-4D58-A7FF-1902ABED4892}.Release|anycpu.ActiveCfg = Release|anycpu
+		{50FF6BD4-5625-4D58-A7FF-1902ABED4892}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
