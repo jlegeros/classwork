@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TreasureHunt
 {
@@ -6,67 +7,133 @@ namespace TreasureHunt
     {
         public static void Main(string[] args)
         {
-            int[] startingPos = {0, 0};
+            var aExplorer = new Explorer(23, 10);
+            List<Trap> traps = new List<Trap>();
 
-            var newExplorer = new Explorer(startingPos);
+            traps.Add(new Trap(3, 15));
+            traps.Add(new Trap(25, 80));
+            traps.Add(new Trap(27, 13));
 
             string[] instructions = { "N3", "E2", "S5", "W10"};
 
             for (int i = 0; i < instructions.Length; i++)
             {
-                newExplorer.Move(instructions[i]);
+                if (!Move(aExplorer, instructions[i], traps))
+                {
+                    break;
+                }
             }
 
-            Console.WriteLine(newExplorer.position[0] + " " + newExplorer.position[1]);
+            if (aExplorer.location != null)
+            {
+                Coord.Print(aExplorer.location);
+            }
+            else
+            {
+                Console.WriteLine("null");
+            }
+        }
+
+        public static bool Move(Explorer explorer, string vector, List<Trap> traps)
+        {
+            char direction = Convert.ToChar(vector.Substring(0, 1));
+
+            int magnitude = Int32.Parse(vector.Substring(1));
+
+            for (int i = 0; i < magnitude; i++)
+            {
+                switch (direction)
+                {
+                    case 'E':
+                        explorer.location.Update(1, 0);
+                        break;
+                    case 'W':
+                        explorer.location.Update(-1, 0);
+                        break;
+                    case 'N':
+                        explorer.location.Update(0, 1);
+                        break;
+                    case 'S':
+                        explorer.location.Update(0, -1);
+                        break;
+                    default:
+                        break;
+                }
+
+                foreach (Trap aTrap in traps)
+                {
+                    if (Coord.Compare(aTrap.location, explorer.location))
+                    {
+                        explorer.location = null;
+                        Console.WriteLine("IT'S A TRAP!!");
+                        return false;
+                    }
+                }
+            }
+           
+            return true;
+        }
+    }
+
+    class Coord
+    {
+        int xPos;
+        int yPos;
+
+        public Coord()
+        {
+            xPos = 0;
+            yPos = 0;
+        }
+        public Coord(int x, int y)
+        {
+            xPos = x;
+            yPos = y;
+        }
+
+        public static bool Compare(Coord a, Coord b)
+        {
+            if (a.xPos == b.xPos && a.yPos == b.yPos)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static void Print(Coord a)
+        {
+            Console.WriteLine(a.xPos + " " + a.yPos);
+        }
+
+        public void Update(int xDelta, int yDelta)
+        {
+            xPos += xDelta;
+            yPos += yDelta;
+
+            if (xPos < 0 || yPos < 0)
+            {
+                Console.WriteLine("You fell off the map!!");
+            }
         }
     }
 
     class Explorer
     {
-        public int[] position = new int [2];
+        public Coord location = new Coord();
 
-        public Explorer(int[] start)
+        public Explorer(int x, int y)
         {
-            position[0] = start[0];
-            position[1] = start[1];
+            location.Update(x, y);
         }
+    }
 
-        public void Move(string vector)
+    class Trap
+    {
+        public Coord location = new Coord();
+
+        public Trap(int x, int y)
         {
-            //char[] moveVector = vector.ToCharArray();
-
-            char direction = Convert.ToChar(vector.Substring(0, 1));
-
-            //char[] tempMag = new char[moveVector.Length - 1];
-            //
-            //for (int i = 1; i < moveVector.Length; i++)
-            //{
-            //    tempMag[i - 1] = moveVector[i];
-            //}
-            //
-            //string strMagnitude = String.Join("", tempMag);
-            //
-            //int magnitude = Int32.Parse(strMagnitude);
-
-            int magnitude = Int32.Parse(vector.Substring(1));
-
-            switch (direction)
-            {
-                case 'E':
-                    position[0] += magnitude;
-                    break;
-                case 'W':
-                    position[0] -= magnitude;
-                    break;
-                case 'N':
-                    position[1] += magnitude;
-                    break;
-                case 'S':
-                    position[1] -= magnitude;
-                    break;
-                default:
-                    break;
-            }
+            location.Update(x, y);
         }
     }
 }
